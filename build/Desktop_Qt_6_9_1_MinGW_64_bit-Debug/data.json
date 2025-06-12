@@ -36,7 +36,6 @@
             "returned": false,
             "user_id": 4
         }
-        
     ],
     "notifications": [
         {
@@ -90,8 +89,7 @@
             "resource_type": "Book",
             "subject": "C++",
             "title": "Intro to C++",
-            "user_reserved": [
-            ]
+            "user_reserved": []
         },
         {
             "author": "Guido van Rossum",
@@ -130,8 +128,7 @@
             "resource_type": "Article",
             "subject": "Deep Learning",
             "title": "Neural Networks Overview",
-            "user_reserved": [
-            ]
+            "user_reserved": []
         },
         {
             "author": "James Gosling",
@@ -145,49 +142,125 @@
             "user_reserved": [
                 4
             ]
+        },
+        
+        {
+            "author": "Ian Goodfellow",
+            "availability": true,
+            "category": "AI",
+            "date_of_publication": "2016-11-18",
+            "res_id": 106,
+            "resource_type": "Book",
+            "subject": "Deep Learning",
+            "title": "Deep Learning",
+            "user_reserved": []
+        },
+        {
+            "author": "Aurélien Géron",
+            "availability": true,
+            "category": "Machine Learning",
+            "date_of_publication": "2019-10-15",
+            "res_id": 107,
+            "resource_type": "Book",
+            "subject": "Machine Learning",
+            "title": "Hands-On Machine Learning with Scikit-Learn and TensorFlow",
+            "user_reserved": []
+        },
+        {
+            "author": "Trevor Hastie",
+            "availability": true,
+            "category": "Mathematics",
+            "date_of_publication": "2009-07-01",
+            "res_id": 108,
+            "resource_type": "Book",
+            "subject": "Linear Algebra",
+            "title": "The Elements of Statistical Learning",
+            "user_reserved": []
+        },
+        {
+            "author": "David C. Lay",
+            "availability": true,
+            "category": "Mathematics",
+            "date_of_publication": "2015-03-15",
+            "res_id": 109,
+            "resource_type": "Book",
+            "subject": "Linear Algebra",
+            "title": "Linear Algebra and Its Applications",
+            "user_reserved": []
+        },
+        {
+            "author": "Jon Duckett",
+            "availability": true,
+            "category": "Web Development",
+            "date_of_publication": "2014-05-20",
+            "res_id": 110,
+            "resource_type": "Book",
+            "subject": "Web Development",
+            "title": "HTML and CSS: Design and Build Websites",
+            "user_reserved": []
+        },
+        {
+            "author": "Ethan Brown",
+            "availability": true,
+            "category": "Web Development",
+            "date_of_publication": "2016-07-01",
+            "res_id": 111,
+            "resource_type": "Book",
+            "subject": "Web Development",
+            "title": "Learning JavaScript: Building Better Web Apps",
+            "user_reserved": []
         }
     ],
     "users": [
         {
-            "email": "alice@student.edu",
+            "email": "ghazalimgh@student.edu",
             "group": 1,
             "id": 1,
-            "name": "Alice Johnson",
+            "name": "Ghazali",
             "password": "password123",
             "type": "Student",
             "year": 2
         },
         {
-            "email": "smith@admin.edu",
+            "email": "mohammed@admin.edu",
             "id": 2,
-            "name": "Mr. Smith",
+            "name": "Mr. Mohammed",
             "password": "adminpass",
             "type": "Admin"
         },
         {
-            "email": "bob@student.edu",
+            "email": "ali@student.edu",
             "group": 3,
             "id": 3,
-            "name": "Bob Lee",
-            "password": "bobpass",
+            "name": "Ali",
+            "password": "alipass",
             "type": "Student",
             "year": 1
         },
         {
-            "email": "clara@student.edu",
+            "email": "ayoub@student.edu",
             "group": 2,
             "id": 4,
-            "name": "Clara Mendes",
-            "password": "clarapass",
+            "name": "Ayoub Ben",
+            "password": "ayoubpass",
             "type": "Student",
             "year": 3
         },
         {
-            "email": "clara@student.edu",
+            "email": "rayanemer@student.edu",
             "group": 2,
             "id": 5,
-            "name": "Clara Mendes",
-            "password": "clara1pass",
+            "name": "Rayane Mer",
+            "password": "rayanepass",
+            "type": "Student",
+            "year": 3
+        },
+        {
+            "email": "younes@student.edu",
+            "group": 7,
+            "id": 6,
+            "name": "Younes",
+            "password": "younespass",
             "type": "Student",
             "year": 3
         }
