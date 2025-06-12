@@ -87,8 +87,19 @@ Admins can:
 git clone https://github.com/ghazalimegh1/Library-Management-System.git
 cd Library-Management-System
 ```
-Open the .pro file using Qt Creator
-Build the project in Release mode
-Click Run
+- Open the .pro file using Qt Creator
+- Build the project in Release mode
+- Click Run
+### Screenshots
+![Login Interface](images/loginInterface.png)
+![Student Dashboard](images/studentDashboard.png)
+![Student Search Resources](images/studentResources.png)
+![Student Loans](images/studentLoans.png)
+![Student Reservations](images/studentReservations.png)
+![Student Notifications](images/studentNotifications.png)
+![Admin Dashboard](images/adminInterfaces.png)
+![Admin Resources](images/adminResources.png)
+![Admin Loans](images/adminLoans.png)
+![Admin Reservations](images/adminReservations.png)
+![Admin Users](images/adminUsers.png)
 
-![Student Dashboard](images/student_dashboard.png)
