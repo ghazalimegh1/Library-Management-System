@@ -1,0 +1,268 @@
+{
+    "loans": [
+        {
+            "borrowDate": "2025-06-01",
+            "is_renewed": false,
+            "loan_id": 1,
+            "number_of_days": 14,
+            "resource_id": 101,
+            "returned": false,
+            "user_id": 1
+        },
+        {
+            "borrowDate": "2025-06-03",
+            "is_renewed": true,
+            "loan_id": 2,
+            "number_of_days": 7,
+            "resource_id": 103,
+            "returned": false,
+            "user_id": 1
+        },
+        {
+            "borrowDate": "2025-06-05",
+            "is_renewed": false,
+            "loan_id": 3,
+            "number_of_days": 9,
+            "resource_id": 102,
+            "returned": false,
+            "user_id": 3
+        },
+        {
+            "borrowDate": "2025-06-07",
+            "is_renewed": true,
+            "loan_id": 4,
+            "number_of_days": 6,
+            "resource_id": 105,
+            "returned": false,
+            "user_id": 4
+        }
+    ],
+    "notifications": [
+        {
+            "content": "Your loan for 'Intro to C++' is due in 3 days.",
+            "notif_id": 1,
+            "user_id": 1
+        },
+        {
+            "content": "Your reservation for 'AI in Education' is confirmed.",
+            "notif_id": 2,
+            "user_id": 3
+        },
+        {
+            "content": "'Advanced Java' is now available for pickup.",
+            "notif_id": 3,
+            "user_id": 4
+        },
+        {
+            "content": "You have successfully renewed your loan for 'AI in Education'.",
+            "notif_id": 4,
+            "user_id": 1
+        }
+    ],
+    "reservations": [
+        {
+            "reservation_date": "2025-06-10",
+            "reservation_id": 1,
+            "resource_id": 104,
+            "user_id": 1
+        },
+        {
+            "reservation_date": "2025-06-10",
+            "reservation_id": 2,
+            "resource_id": 103,
+            "user_id": 3
+        },
+        {
+            "reservation_date": "2025-06-10",
+            "reservation_id": 3,
+            "resource_id": 105,
+            "user_id": 4
+        }
+    ],
+    "resources": [
+        {
+            "author": "Bjarne Stroustrup",
+            "availability": false,
+            "category": "Programming",
+            "date_of_publication": "2013-05-20",
+            "res_id": 101,
+            "resource_type": "Book",
+            "subject": "C++",
+            "title": "Intro to C++",
+            "user_reserved": []
+        },
+        {
+            "author": "Guido van Rossum",
+            "availability": false,
+            "category": "Programming",
+            "date_of_publication": "2021-01-01",
+            "res_id": 102,
+            "resource_type": "Digital Content",
+            "subject": "Python",
+            "title": "Python Basics",
+            "user_reserved": [
+                1
+            ]
+        },
+        {
+            "author": "Jane Doe",
+            "availability": false,
+            "category": "Research",
+            "date_of_publication": "2020-07-10",
+            "res_id": 103,
+            "resource_type": "Thesis",
+            "subject": "AI",
+            "title": "AI in Education",
+            "university": "MIT",
+            "user_reserved": [
+                3
+            ]
+        },
+        {
+            "author": "Andrew Ng",
+            "availability": true,
+            "category": "AI",
+            "date_of_publication": "2018-11-15",
+            "journal": "AI Journal",
+            "res_id": 104,
+            "resource_type": "Article",
+            "subject": "Deep Learning",
+            "title": "Neural Networks Overview",
+            "user_reserved": []
+        },
+        {
+            "author": "James Gosling",
+            "availability": false,
+            "category": "Programming",
+            "date_of_publication": "2015-09-10",
+            "res_id": 105,
+            "resource_type": "Book",
+            "subject": "Java",
+            "title": "Advanced Java",
+            "user_reserved": [
+                4
+            ]
+        },
+        
+        {
+            "author": "Ian Goodfellow",
+            "availability": true,
+            "category": "AI",
+            "date_of_publication": "2016-11-18",
+            "res_id": 106,
+            "resource_type": "Book",
+            "subject": "Deep Learning",
+            "title": "Deep Learning",
+            "user_reserved": []
+        },
+        {
+            "author": "Aurélien Géron",
+            "availability": true,
+            "category": "Machine Learning",
+            "date_of_publication": "2019-10-15",
+            "res_id": 107,
+            "resource_type": "Book",
+            "subject": "Machine Learning",
+            "title": "Hands-On Machine Learning with Scikit-Learn and TensorFlow",
+            "user_reserved": []
+        },
+        {
+            "author": "Trevor Hastie",
+            "availability": true,
+            "category": "Mathematics",
+            "date_of_publication": "2009-07-01",
+            "res_id": 108,
+            "resource_type": "Book",
+            "subject": "Linear Algebra",
+            "title": "The Elements of Statistical Learning",
+            "user_reserved": []
+        },
+        {
+            "author": "David C. Lay",
+            "availability": true,
+            "category": "Mathematics",
+            "date_of_publication": "2015-03-15",
+            "res_id": 109,
+            "resource_type": "Book",
+            "subject": "Linear Algebra",
+            "title": "Linear Algebra and Its Applications",
+            "user_reserved": []
+        },
+        {
+            "author": "Jon Duckett",
+            "availability": true,
+            "category": "Web Development",
+            "date_of_publication": "2014-05-20",
+            "res_id": 110,
+            "resource_type": "Book",
+            "subject": "Web Development",
+            "title": "HTML and CSS: Design and Build Websites",
+            "user_reserved": []
+        },
+        {
+            "author": "Ethan Brown",
+            "availability": true,
+            "category": "Web Development",
+            "date_of_publication": "2016-07-01",
+            "res_id": 111,
+            "resource_type": "Book",
+            "subject": "Web Development",
+            "title": "Learning JavaScript: Building Better Web Apps",
+            "user_reserved": []
+        }
+    ],
+    "users": [
+        {
+            "email": "ghazalimgh@student.edu",
+            "group": 1,
+            "id": 1,
+            "name": "Ghazali",
+            "password": "password123",
+            "type": "Student",
+            "year": 2
+        },
+        {
+            "email": "mohammed@admin.edu",
+            "id": 2,
+            "name": "Mr. Mohammed",
+            "password": "adminpass",
+            "type": "Admin"
+        },
+        {
+            "email": "ali@student.edu",
+            "group": 3,
+            "id": 3,
+            "name": "Ali",
+            "password": "alipass",
+            "type": "Student",
+            "year": 1
+        },
+        {
+            "email": "ayoub@student.edu",
+            "group": 2,
+            "id": 4,
+            "name": "Ayoub Ben",
+            "password": "ayoubpass",
+            "type": "Student",
+            "year": 3
+        },
+        {
+            "email": "rayanemer@student.edu",
+            "group": 2,
+            "id": 5,
+            "name": "Rayane Mer",
+            "password": "rayanepass",
+            "type": "Student",
+            "year": 3
+        },
+        {
+            "email": "younes@student.edu",
+            "group": 7,
+            "id": 6,
+            "name": "Younes",
+            "password": "younespass",
+            "type": "Student",
+            "year": 3
+        }
+    ]
+}
