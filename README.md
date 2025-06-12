@@ -85,8 +85,8 @@ Admins can:
 ### Steps
 ```bash
 git clone https://github.com/ghazalimegh1/Library-Management-System.git
-cd Library-Management-System```
-
+cd Library-Management-System
+```
 Open the .pro file using Qt Creator
 Build the project in Release mode
 Click Run
