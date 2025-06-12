@@ -1,0 +1,195 @@
+{
+    "loans": [
+        {
+            "borrowDate": "2025-06-01",
+            "is_renewed": false,
+            "loan_id": 1,
+            "number_of_days": 14,
+            "resource_id": 101,
+            "returned": false,
+            "user_id": 1
+        },
+        {
+            "borrowDate": "2025-06-03",
+            "is_renewed": true,
+            "loan_id": 2,
+            "number_of_days": 7,
+            "resource_id": 103,
+            "returned": false,
+            "user_id": 1
+        },
+        {
+            "borrowDate": "2025-06-05",
+            "is_renewed": false,
+            "loan_id": 3,
+            "number_of_days": 9,
+            "resource_id": 102,
+            "returned": false,
+            "user_id": 3
+        },
+        {
+            "borrowDate": "2025-06-07",
+            "is_renewed": true,
+            "loan_id": 4,
+            "number_of_days": 6,
+            "resource_id": 105,
+            "returned": false,
+            "user_id": 4
+        }
+        
+    ],
+    "notifications": [
+        {
+            "content": "Your loan for 'Intro to C++' is due in 3 days.",
+            "notif_id": 1,
+            "user_id": 1
+        },
+        {
+            "content": "Your reservation for 'AI in Education' is confirmed.",
+            "notif_id": 2,
+            "user_id": 3
+        },
+        {
+            "content": "'Advanced Java' is now available for pickup.",
+            "notif_id": 3,
+            "user_id": 4
+        },
+        {
+            "content": "You have successfully renewed your loan for 'AI in Education'.",
+            "notif_id": 4,
+            "user_id": 1
+        }
+    ],
+    "reservations": [
+        {
+            "reservation_date": "2025-06-10",
+            "reservation_id": 1,
+            "resource_id": 104,
+            "user_id": 1
+        },
+        {
+            "reservation_date": "2025-06-10",
+            "reservation_id": 2,
+            "resource_id": 103,
+            "user_id": 3
+        },
+        {
+            "reservation_date": "2025-06-10",
+            "reservation_id": 3,
+            "resource_id": 105,
+            "user_id": 4
+        }
+    ],
+    "resources": [
+        {
+            "author": "Bjarne Stroustrup",
+            "availability": false,
+            "category": "Programming",
+            "date_of_publication": "2013-05-20",
+            "res_id": 101,
+            "resource_type": "Book",
+            "subject": "C++",
+            "title": "Intro to C++",
+            "user_reserved": [
+            ]
+        },
+        {
+            "author": "Guido van Rossum",
+            "availability": false,
+            "category": "Programming",
+            "date_of_publication": "2021-01-01",
+            "res_id": 102,
+            "resource_type": "Digital Content",
+            "subject": "Python",
+            "title": "Python Basics",
+            "user_reserved": [
+                1
+            ]
+        },
+        {
+            "author": "Jane Doe",
+            "availability": false,
+            "category": "Research",
+            "date_of_publication": "2020-07-10",
+            "res_id": 103,
+            "resource_type": "Thesis",
+            "subject": "AI",
+            "title": "AI in Education",
+            "university": "MIT",
+            "user_reserved": [
+                3
+            ]
+        },
+        {
+            "author": "Andrew Ng",
+            "availability": true,
+            "category": "AI",
+            "date_of_publication": "2018-11-15",
+            "journal": "AI Journal",
+            "res_id": 104,
+            "resource_type": "Article",
+            "subject": "Deep Learning",
+            "title": "Neural Networks Overview",
+            "user_reserved": [
+            ]
+        },
+        {
+            "author": "James Gosling",
+            "availability": false,
+            "category": "Programming",
+            "date_of_publication": "2015-09-10",
+            "res_id": 105,
+            "resource_type": "Book",
+            "subject": "Java",
+            "title": "Advanced Java",
+            "user_reserved": [
+                4
+            ]
+        }
+    ],
+    "users": [
+        {
+            "email": "alice@student.edu",
+            "group": 1,
+            "id": 1,
+            "name": "Alice Johnson",
+            "password": "password123",
+            "type": "Student",
+            "year": 2
+        },
+        {
+            "email": "smith@admin.edu",
+            "id": 2,
+            "name": "Mr. Smith",
+            "password": "adminpass",
+            "type": "Admin"
+        },
+        {
+            "email": "bob@student.edu",
+            "group": 3,
+            "id": 3,
+            "name": "Bob Lee",
+            "password": "bobpass",
+            "type": "Student",
+            "year": 1
+        },
+        {
+            "email": "clara@student.edu",
+            "group": 2,
+            "id": 4,
+            "name": "Clara Mendes",
+            "password": "clarapass",
+            "type": "Student",
+            "year": 3
+        },
+        {
+            "email": "clara@student.edu",
+            "group": 2,
+            "id": 5,
+            "name": "Clara Mendes",
+            "password": "clara1pass",
+            "type": "Student",
+            "year": 3
+        }
+    ]
+}
