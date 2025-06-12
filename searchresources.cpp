@@ -131,7 +131,7 @@ SearchResources::SearchResources(Library* library, Student *student, QWidget* pa
 
 
 
-            resourcesTable->setRowHeight(row, 44);
+            resourcesTable->setRowHeight(row, 70);
 
             QPushButton* reserveBtn = new QPushButton("Reserve");
             QPushButton* loanBtn = new QPushButton("loan");
