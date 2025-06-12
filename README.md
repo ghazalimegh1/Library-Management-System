@@ -91,15 +91,37 @@ cd Library-Management-System
 - Build the project in Release mode
 - Click Run
 ### Screenshots
-![Login Interface](images/loginInterface.png)
-![Student Dashboard](images/studentDashboard.png)
-![Student Search Resources](images/studentResources.png)
-![Student Loans](images/studentLoans.png)
-![Student Reservations](images/studentReservations.png)
-![Student Notifications](images/studentNotifications.png)
-![Admin Dashboard](images/adminInterfaces.png)
-![Admin Resources](images/adminResources.png)
-![Admin Loans](images/adminLoans.png)
-![Admin Reservations](images/adminReservations.png)
-![Admin Users](images/adminUsers.png)
+<h3>🔐 Login Interface</h3>
+<img src="images/loginInterface.png" width="600"/>
+
+<h3>🎓 Student Dashboard</h3>
+<img src="images/studentDashboard.png" width="600"/>
+
+<h3>🔍 Student – Search Resources</h3>
+<img src="images/studentResources.png" width="600"/>
+
+<h3>📚 Student – Loans</h3>
+<img src="images/studentLoans.png" width="600"/>
+
+<h3>📋 Student – Reservations</h3>
+<img src="images/studentReservations.png" width="600"/>
+
+<h3>🔔 Student – Notifications</h3>
+<img src="images/studentNotifications.png" width="600"/>
+
+<h3>🛠️ Admin Dashboard</h3>
+<img src="images/adminInterfaces.png" width="600"/>
+
+<h3>📖 Admin – Resources</h3>
+<img src="images/adminResources.png" width="600"/>
+
+<h3>📑 Admin – Loans</h3>
+<img src="images/adminLoans.png" width="600"/>
+
+<h3>📅 Admin – Reservations</h3>
+<img src="images/adminReservations.png" width="600"/>
+
+<h3>👤 Admin – User Management</h3>
+<img src="images/adminUsers.png" width="600"/>
+
 
