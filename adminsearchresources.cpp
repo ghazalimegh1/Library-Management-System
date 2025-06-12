@@ -260,7 +260,7 @@ AdminSearchResources::AdminSearchResources(Library* library,QWidget* parent) : Q
 
 
 
-        resourcesTable->setRowHeight(row, 44);
+        resourcesTable->setRowHeight(row, 70);
 
 
         QPushButton* editBtn = new QPushButton("Edit");
@@ -470,11 +470,11 @@ AdminSearchResources::AdminSearchResources(Library* library,QWidget* parent) : Q
 
     resourcesTable->setColumnWidth(0, 100);
     resourcesTable->setColumnWidth(1, 50);
-    resourcesTable->setColumnWidth(2, 75);
+    resourcesTable->setColumnWidth(2, 70);
     resourcesTable->setColumnWidth(3, 100);
     resourcesTable->setColumnWidth(4, 100);
     resourcesTable->setColumnWidth(5, 100);
-    resourcesTable->setColumnWidth(6, 140);
+    resourcesTable->setColumnWidth(6, 137);
 
 
     resourcesTable->setAlternatingRowColors(true);
